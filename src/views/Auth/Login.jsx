@@ -22,7 +22,7 @@ export default function Login() {
       setError('No Success');
     }
     if (loginWasSuccessful) {
-      history.replace('/');
+      history.replace(from.pathname);
     }
 
     // TODO: If login was unsuccessful, set an error with a message
